@@ -1,0 +1,25 @@
+.component {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
+    background: #fff;
+
+    .btnSelected {
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        user-select: none;
+        border: none;
+        color: white;
+        background: rgb(253, 176, 103);
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .btnSelected:hover {
+        background: rgb(250, 190, 133);
+    }
+  }

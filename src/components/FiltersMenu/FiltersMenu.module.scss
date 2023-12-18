@@ -1,0 +1,40 @@
+.component {
+    margin-top: 30px;
+    width: 300px;
+
+    .sort {
+        .title {
+            margin: 20px 0 10px 0;
+            font-weight: bold;
+        }
+    }
+
+    .filter {
+        .title {
+            margin: 20px 0 10px 0;
+            font-weight: bold;
+
+        }
+    }
+
+    .cost {
+        .title {
+            margin: 20px 0 10px 0;
+            font-weight: bold;
+        }
+
+        .items {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+
+    .companies {
+        .title {
+            margin: 20px 0 10px 0;
+            font-weight: bold;
+
+        }
+    }
+}

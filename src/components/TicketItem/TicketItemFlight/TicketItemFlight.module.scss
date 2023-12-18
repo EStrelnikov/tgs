@@ -1,0 +1,62 @@
+.component {
+    margin-top: 2px;
+    padding: 5px 10px 3px 10px;
+    background: white;
+    color: black;
+    border-radius: 2px;
+  
+    .arrow {
+      color: rgb(0, 135, 201);
+    }
+  
+    .secondary {
+      color: rgb(253, 176, 103);
+      font-size: 14px;
+    }
+  
+    .info {
+      color: rgb(0, 135, 201);
+      font-size: 14px;
+    }
+  
+    .line {
+      margin: 5px 16px;
+    }
+  
+    .scheduleLine {
+      margin: 5px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .segmentsLine {
+      height: 1px;
+      margin: 12px 50px;
+      background: rgb(149, 149, 149);
+      text-align: center;
+  
+      span {
+        position: relative;
+        top: -10px;
+        background-color: white;
+        padding: 2px 5px;
+        color: rgb(253, 176, 103);
+        font-size: 14px;
+      }
+
+      span:empty {
+        display: none;
+      }
+    }
+  
+    .underline {
+      height: 1px;
+      margin: 0 5px;
+      background: rgb(224, 224, 224);
+    }
+  
+    small {
+      font-size: 12px;
+    }
+}
